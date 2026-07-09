@@ -1,17 +1,14 @@
 ---
 title: "Resume"
-description: "Professional resume of Jane Doe"
+description: "Professional resume of Mahshid Ghazanfari"
 layout: "resume"
 toc: false
 
-name: "Jane Doe"
-jobTitle: "Senior Software Engineer"
-location: "Berlin, Germany"
-email: "jane@example.com"
-phone: "+49 30 1234 5678"
-website: "https://janedoe.dev"
-linkedin: "https://linkedin.com/in/janedoe"
-github: "https://github.com/janedoe"
+name: "Mahshid Ghazanfarirad"
+jobTitle: "Senior Marketing Analyst"
+website: "https://dancingdata.ir"
+linkedin: "https://linkedin.com/in/mahshidghazanfari"
+github: "https://github.com/mahshidgh96"
 
 summary: "Software engineer with 9 years of experience building scalable backend systems and developer tools. Passionate about open source, clean APIs, and developer experience."
 

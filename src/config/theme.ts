@@ -15,4 +15,4 @@ export const themes = [
 
 export type ThemeId = (typeof themes)[number]['id'];
 
-export const defaultTheme: ThemeId = 'default';
+export const defaultTheme: ThemeId = 'Emerald';

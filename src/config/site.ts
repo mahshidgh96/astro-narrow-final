@@ -1,13 +1,13 @@
 import type { Locale } from './i18n';
 
 export const siteConfig = {
-  name: 'Astro Narrow',
-  shortName: 'Astro Narrow',
+  name: 'InsightHunter in DancingData',
+  shortName: 'Dancing Data',
   description: 'A content-focused Astro theme inspired by Hugo Narrow.',
   author: {
-    name: 'Astro Narrow',
+    name: 'Mahshid Ghazanfari',
     title: {
-      en: 'A clean and minimal Astro theme',
+      en: 'A life-long learner',
       'zh-cn': '一个干净克制的 Astro 主题'
     },
     description: {

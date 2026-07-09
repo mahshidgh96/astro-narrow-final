@@ -1,8 +1,11 @@
 ---
-title: "About"
-description: "About this site."
+title: "Who is Mahshid"
+description: "About Mahshid Rad."
 layout: "page"
 toc: false
 ---
 
-This is a small Astro-native site built around writing and projects.
+
+I’m Mahshid, a passionate insight hunter, lifelong learner, marketing and data lover.
+I’m a not dreamer, I make my story happen.
+
