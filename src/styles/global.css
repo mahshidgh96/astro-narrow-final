@@ -62,6 +62,50 @@ body {
   font-family: var(--font-sans);
 }
 
+/* Persian / RTL support */
+html[dir='rtl'] body {
+  font-family: 'Vazirmatn', var(--font-sans);
+}
+
+/*
+ * Tailwind's font-sans utility may be applied to elements inside body.
+ * This selector is more specific than .font-sans, so Persian text
+ * continues to use Vazirmatn.
+ */
+html[dir='rtl'] .font-sans {
+  font-family: 'Vazirmatn', var(--font-sans);
+}
+
+/*
+ * Use Vazirmatn for dates and metadata that may currently use font-mono.
+ * Do not apply this rule to code blocks.
+ */
+html[dir='rtl'] .date,
+html[dir='rtl'] .meta {
+  font-family: 'Vazirmatn', var(--font-sans);
+}
+
+/*
+ * Persian form controls should use the same font as the page.
+ */
+html[dir='rtl'] button,
+html[dir='rtl'] input,
+html[dir='rtl'] textarea,
+html[dir='rtl'] select {
+  font-family: inherit;
+}
+
+/*
+ * Code, commands, URLs, and file paths should remain LTR.
+ */
+html[dir='rtl'] pre,
+html[dir='rtl'] code {
+  direction: ltr;
+  unicode-bidi: isolate;
+  text-align: left;
+  font-family: var(--font-mono);
+}
+
 button,
 input,
 textarea,

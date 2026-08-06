@@ -8,16 +8,16 @@ export const siteConfig = {
     name: 'Mahshid Ghazanfari',
     title: {
       en: 'A life-long learner',
-      'zh-cn': '一个干净克制的 Astro 主题'
+      'fa': 'در حال یادگیری چگونه زیستن'
     },
     description: {
       en: 'Writing, projects, and notes — a compact space for ideas that keep their shape.',
-      'zh-cn': '写作、项目与笔记 —— 一个保持克制、注重结构感的内容空间。'
+      'fa': 'ای دل مباش یک دم خالی ز عشق و مستی'
     },
     avatar: '/favicon.svg',
     social: [
-      { name: 'GitHub', url: 'https://github.com/', icon: 'simple-icons:github' },
-      { name: 'Email', url: 'mailto:hello@example.com', icon: 'lucide:mail' }
+      { name: 'GitHub', url: 'https://github.com/mahshidgh96', icon: 'simple-icons:github' },
+      { name: 'Email', url: 'mailto:mahaiwork6@gmail.com.com', icon: 'lucide:mail' }
     ]
   },
   contentWidth: '56rem',
@@ -29,8 +29,8 @@ export const siteConfig = {
       enabled: true
     }
   },
-  nav: ['posts', 'projects', 'archives', 'tags'],
-  footerNav: ['archives', 'tags', 'series', 'resume'],
+  nav: ['posts', 'projects','archives','resume'],
+  footerNav: ['archives', 'tags','resume'],
   comments: {
     enabled: false,
     provider: 'giscus',

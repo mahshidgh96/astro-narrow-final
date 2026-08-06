@@ -1,18 +1,20 @@
 export const defaultLocale = 'en';
-export const locales = ['en', 'zh-cn'] as const;
+export const locales = ['en', 'fa'] as const;
 
 export type Locale = (typeof locales)[number];
 
-export const localeMeta: Record<Locale, { label: string; htmlLang: string; dateLocale: string }> = {
+export const localeMeta: Record<Locale, { label: string; htmlLang: string; dateLocale: string; dir: 'ltr' | 'rtl' }> = {
   en: {
     label: 'English',
     htmlLang: 'en',
-    dateLocale: 'en'
+    dateLocale: 'en',
+    dir: 'ltr'
   },
-  'zh-cn': {
-    label: '简体中文',
-    htmlLang: 'zh-CN',
-    dateLocale: 'zh-CN'
+  'fa': {
+    label: 'فارسی',
+    htmlLang: 'fa-IR',
+    dateLocale: 'fa-IR',
+     dir: 'rtl'
   }
 };
 

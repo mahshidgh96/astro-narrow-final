@@ -36,6 +36,7 @@ const {
 
 const pageTitle = title === siteConfig.name ? title : `${title} | ${siteConfig.name}`;
 const htmlLang = localeMeta[locale].htmlLang;
+const htmlDir = localeMeta[locale].dir;
 const assetBase = import.meta.env.BASE_URL || '/';
 const faviconSvg = `${assetBase.replace(/\/?$/, '/')}favicon.svg`;
 const faviconIco = `${assetBase.replace(/\/?$/, '/')}favicon.ico`;
@@ -53,7 +54,7 @@ const themeInit = `
 ---
 
 <!doctype html>
-<html lang={htmlLang} data-theme="default">
+<html lang={htmlLang} dir={htmlDir} data-theme="default">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
@@ -61,6 +62,15 @@ const themeInit = `
     <meta name="generator" content={Astro.generator} />
     <link rel="icon" type="image/svg+xml" href={faviconSvg} />
     <link rel="icon" href={faviconIco} />
+    {/* Load Vazirmatn only for RTL pages */}
+    {htmlDir === 'rtl' && (
+      <>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap" />
+      </>
+    )}
+    
     <title>{pageTitle}</title>
     <script is:inline set:html={themeInit}></script>
   </head>

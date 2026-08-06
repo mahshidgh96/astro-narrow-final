@@ -37,7 +37,7 @@ export function localizedEntryPath(collection: ContentType, entry: CollectionEnt
 
 export function formatDate(date: Date | undefined, locale: Locale) {
   if (!date) return '';
-  return new Intl.DateTimeFormat(locale === 'zh-cn' ? 'zh-CN' : 'en', {
+  return new Intl.DateTimeFormat(locale === 'fa' ? 'fa-IR-u-ca-persian' : 'en', {
     year: 'numeric',
     month: 'long',
     day: 'numeric'
