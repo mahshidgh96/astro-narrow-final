@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/posts/fa/_tir405.md",
+                "file": "src/content/posts/fa/tir405.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_tir405"
+              "title": "tir405"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/posts/fa/_tir405.md",
+                "file": "src/content/posts/fa/tir405.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/posts/fa/_tir405.md",
+                "file": "src/content/posts/fa/tir405.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/posts/fa/_tir405.md",
+                "file": "src/content/posts/fa/tir405.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -202,7 +202,7 @@
   "active": "c167a792470b908c",
   "lastOpenFiles": [
     "Untitled.md",
-    "src/content/posts/fa/_tir405.md",
+    "src/content/posts/fa/tir405.md",
     "src/content/posts/en/hello-astro-narrow.md",
     "src/content/posts/en/markdown-features.md",
     "src/content/posts/en/farsi-post.md",
