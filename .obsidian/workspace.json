@@ -201,8 +201,10 @@
   },
   "active": "c167a792470b908c",
   "lastOpenFiles": [
-    "Untitled.md",
+    "src/content/posts/fa/test-obsidian.md",
+    "src/content/posts/fa/farsi-test.md",
     "src/content/posts/fa/tir1405.md",
+    "Untitled.md",
     "src/content/posts/en/hello-astro-narrow.md",
     "src/content/posts/en/markdown-features.md",
     "src/content/posts/en/farsi-post.md",
@@ -210,8 +212,6 @@
     "src/content/pages/en/hobbies.md",
     "src/content/pages/en/timeline.md",
     "src/content/pages/en/resume.md",
-    "src/content/pages/fa",
-    "src/content/posts/fa/test-obsidian.md",
-    "src/content/posts/fa/farsi-test.md"
+    "src/content/pages/fa"
   ]
 }
