@@ -1,0 +1,60 @@
+{
+  "defaultTemplate": "---\ntitle: \"{{title}}\"\ndate: {{date}}\ntags: []\n---\n",
+  "autoInsertProperties": true,
+  "dateFormat": "YYYY-MM-DD",
+  "enableCopyHeadingLink": true,
+  "copyHeadingLinkFormat": "obsidian",
+  "addTrailingSlashToLinks": true,
+  "enableOpenTerminalCommand": false,
+  "terminalProjectRootPath": "",
+  "terminalApplicationName": "",
+  "enableTerminalDebugLogging": false,
+  "enableTerminalRibbonIcon": false,
+  "enableOpenConfigFileCommand": false,
+  "configFilePath": "",
+  "enableConfigRibbonIcon": false,
+  "contentTypes": [
+    {
+      "id": "content-1786087119711",
+      "name": "english post",
+      "folder": "src/content/posts/en",
+      "linkBasePath": "",
+      "template": "---\ntitle: \"{{title}}\"\ndescription: \"{{decription}}\" \npubDate: {{date}}\ncover: \"{{cover}}\"\ntags: {{tags}}\ntoc: \"{{toc}}\"\nmath: true\nmermaid: true\ngallery: true\nlightbox: true\nseries: \"{{series}}\"\nseriesOrder: {{seriesOrder}}\n---\n",
+      "enabled": true,
+      "creationMode": "file",
+      "indexFileName": "",
+      "ignoreSubfolders": false,
+      "enableUnderscorePrefix": true,
+      "useMdxExtension": false,
+      "modifiedDateField": ""
+    },
+    {
+      "id": "content-1786089707547",
+      "name": "farsi post",
+      "folder": "src/content/posts/fa",
+      "linkBasePath": "",
+      "template": "---\ntitle: \"{{title}}\"\ndescription: \"{{decription}}\" \npubDate: {{date}}\ncover: \"{{cover}}\"\ntags: {{tags}}\ntoc: \"{{toc}}\"\nmath: true\nmermaid: true\ngallery: true\nlightbox: true\nseries: \"{{series}}\"\nseriesOrder: {{seriesOrder}}\n---\n",
+      "enabled": true,
+      "creationMode": "file",
+      "indexFileName": "",
+      "ignoreSubfolders": false,
+      "enableUnderscorePrefix": true,
+      "useMdxExtension": false,
+      "modifiedDateField": ""
+    }
+  ],
+  "migrationCompleted": true,
+  "helpButtonReplacement": {
+    "enabled": false,
+    "commandId": "edit-astro-config",
+    "iconId": "rocket"
+  },
+  "showMdxFilesInExplorer": true,
+  "processBackgroundFileChanges": true,
+  "syncDraftDate": true,
+  "draftDetectionMode": "property",
+  "draftProperty": "Draft",
+  "draftLogic": "true-is-draft",
+  "publishDateField": "pubDate",
+  "renameOnTitleClick": true
+}
