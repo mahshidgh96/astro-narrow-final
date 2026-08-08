@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/posts/fa/farvardin1405.md",
+                "file": "src/content/posts/fa/_azar1404.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "farvardin1405"
+              "title": "_azar1404"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/posts/fa/farvardin1405.md",
+                "file": "src/content/posts/fa/_azar1404.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/posts/fa/farvardin1405.md",
+                "file": "src/content/posts/fa/_azar1404.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/posts/fa/farvardin1405.md",
+                "file": "src/content/posts/fa/_azar1404.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -201,8 +201,9 @@
   },
   "active": "c167a792470b908c",
   "lastOpenFiles": [
-    "src/content/posts/en/hello-astro-narrow.md",
+    "src/content/posts/fa/_azar1404.md",
     "src/content/posts/fa/farvardin1405.md",
+    "src/content/posts/en/hello-astro-narrow.md",
     "src/content/posts/fa/tir1405.md",
     "src/content/posts/fa/farvardin-1405",
     "src/content/projects/zh-cn/astro-narrow.md",
