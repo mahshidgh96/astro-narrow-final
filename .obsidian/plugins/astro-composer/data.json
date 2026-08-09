@@ -33,7 +33,7 @@
       "name": "farsi post",
       "folder": "src/content/posts/fa",
       "linkBasePath": "",
-      "template": "---\ntitle:\ndescription:\npubDate: {{date}}\ncover: \ntags: \ntoc: side\nseries: \nseriesOrder:\n---\n",
+      "template": "---\ntitle:\ndescription:\npubDate: {{date}}\ndraft:\ntags: \ntoc: side\ncover: \nseries: \nseriesOrder:\n---\n",
       "enabled": true,
       "creationMode": "file",
       "indexFileName": "",
@@ -51,10 +51,10 @@
   },
   "showMdxFilesInExplorer": true,
   "processBackgroundFileChanges": true,
-  "syncDraftDate": true,
+  "syncDraftDate": false,
   "draftDetectionMode": "property",
   "draftProperty": "Draft",
   "draftLogic": "true-is-draft",
   "publishDateField": "pubDate",
-  "renameOnTitleClick": true
+  "renameOnTitleClick": false
 }
