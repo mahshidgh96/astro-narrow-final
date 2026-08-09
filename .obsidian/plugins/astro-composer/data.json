@@ -8,9 +8,9 @@
   "enableOpenTerminalCommand": true,
   "terminalProjectRootPath": "",
   "terminalApplicationName": "",
-  "enableTerminalDebugLogging": false,
-  "enableTerminalRibbonIcon": false,
-  "enableOpenConfigFileCommand": false,
+  "enableTerminalDebugLogging": true,
+  "enableTerminalRibbonIcon": true,
+  "enableOpenConfigFileCommand": true,
   "configFilePath": "",
   "enableConfigRibbonIcon": false,
   "contentTypes": [
@@ -45,7 +45,7 @@
   ],
   "migrationCompleted": true,
   "helpButtonReplacement": {
-    "enabled": false,
+    "enabled": true,
     "commandId": "edit-astro-config",
     "iconId": "rocket"
   },
