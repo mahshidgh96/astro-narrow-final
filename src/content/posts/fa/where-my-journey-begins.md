@@ -2,7 +2,7 @@
 title: قصه از کجا شروع شد؟
 description: به دنیای افکار و ایده ها و تجربه های من خوش اومدین!
 pubDate: 2025-04-22
-draft:
+draft: false
 tags:
   - Start
 toc: side
