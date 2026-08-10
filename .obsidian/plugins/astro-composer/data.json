@@ -33,7 +33,7 @@
       "name": "farsi post",
       "folder": "src/content/posts/fa",
       "linkBasePath": "",
-      "template": "---\ntitle:\ndescription:\npubDate: {{date}}\ndraft:\ntags: \ntoc: side\ncover: \nseries: \nseriesOrder:\n---\n",
+      "template": "---\ntitle:\ndescription:\npubDate: {{date}}\ndraft:\ntags: \ntoc: side\n---\n",
       "enabled": true,
       "creationMode": "file",
       "indexFileName": "",
