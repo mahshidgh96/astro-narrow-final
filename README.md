@@ -1,6 +1,6 @@
 # Astro Narrow
 
-[English](README.md) · [简体中文](README.zh-CN.md) · [Hugo Narrow](https://github.com/tom2almighty/hugo-narrow)
+[English](README.md) · [简体中文](README.FA.md) · [Hugo Narrow](https://github.com/tom2almighty/hugo-narrow)
 
 Astro Narrow is a content-focused Astro theme inspired by Hugo Narrow. It keeps a compact reading layout while using Astro-native building blocks: content collections, Astro routes, Astro components, and remark/rehype Markdown transforms.
 
