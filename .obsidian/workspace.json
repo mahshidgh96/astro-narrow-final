@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.FA.md",
+                "file": "src/content/posts/en/farsi-post.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README.FA"
+              "title": "farsi-post"
             }
           }
         ]
@@ -202,6 +202,8 @@
   },
   "active": "c167a792470b908c",
   "lastOpenFiles": [
+    "LICENSE",
+    "README.FA.md",
     "README.md",
     "src/content/posts/fa/content-creators.md",
     "src/content/posts/fa/farvardin1404.md",
@@ -229,8 +231,6 @@
     "src/content/pages/fa/about.md",
     "src/content/pages/fa/resume.md",
     "src/content/posts/fa/test-obsidian.md",
-    "src/content/posts/fa/farsi-test.md",
-    "Untitled.md",
     "src/content/pages/fa"
   ]
 }
